@@ -1,0 +1,63 @@
+.custom-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inner-div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 134px;
+}
+
+.left-border,
+.right-border {
+  border: 1px #d9d9db solid;
+  width: 50px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background: #c0c0c2;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.label {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.description {
+  font-size: 13px;
+  font-weight: 400;
+  color: #8d8e8f;
+}
+
+.custom-div-vertical-progress {
+  display: flex;
+  width: fit-content;
+  gap: 8px;
+}
+
+.inner-div-vertical-progress {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 26px;
+  gap: 5px;
+}
+
+.bottom-border {
+  height: 68px;
+  border: 1px #d9d9db solid;
+}
